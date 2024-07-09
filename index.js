@@ -10,7 +10,7 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 
 app.use(cors({
-    origin: "https://mwahhabmirzavectorlabsfzellc.github.io/Nex-pool",
+    origin: "https://mwahhabmirzavectorlabsfzellc.github.io/Nex-pool/",
     methods: "GET, POST, PUT, DELETE",
     allowedHeaders: ["Content-Type", "Authorization"],
     credentials: true,
